@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>with us</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="p.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="author" content="">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="icomoon/icomoon.css">
+	<link rel="stylesheet" type="text/css" href="css/vendor.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+   h1, h4 {
+    margin-left: 150px;
+    margin-right: 650px;
+   }
+   .img1 {
+float: right;
+margin-right: 100px;
+   }
+</style>
+</head>
+<body>
+    <header id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="main-logo">
+                        <a href="index.html"><img src="аыиша 2.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <nav id="navbar">
+                        <div class="main-menu stellarnav">
+                            <ul class="menu-list">
+                                <li class="menu-item active"><a href="index.html">Главная</a></li>
+                                <li class="menu-item has-sub">
+                                    <a href="#pages" class="nav-link">Меню</a>
+    
+                                    <ul>
+                                      <li class="active"><a href="index.html">Главная</a></li>
+                                      <li><a href="about.html">О нас</a></li>
+                                      <li><a href="styles.html">Идея</a></li>
+                                      <li><a href="inspiration.html">Вдохновение</a></li>
+                                      <li><a href="cart.html">Каталог</a></li>
+                                      <li><a href="random.html">Случайная книга</a></li>
+                                      <li><a href="emotion.html">Выбор души</a></li>
+                                      <li><a href="vid.html">Видеообзоры</a></li>
+                                      <li><a href="https://citaty.info/book">Цитаты на день</a></li>
+                                      <li><a href="podcast.html">Подкаст</a></li>
+                                      <li><a href="dost.html">Доставка</a></li>
+                                      <li><a href="great.html">Поблагодарить</a></li>
+                                      <li><a href="contact.html">F.A.Q.</a></li>
+                                    </ul>
+    
+                                </li>
+                                <li class="menu-item"><a href="index.html" class="nav-link">Рекомендации</a></li>
+                                <li class="menu-item"><a href="index.html" class="nav-link">Популярное</a></li>
+                                <li class="menu-item"><a href="index.html" class="nav-link">Скидки</a></li>
+                                <li class="menu-item"><a href="https://gorky.media/reviews/" class="nav-link">Статьи</a></li>
+                                <li class="menu-item"><a href="https://t.me/moomiecomfort" class="nav-link">Наш TG канал</a></li>
+                                <li class="menu-item"><a href="https://t.me/+r1jisu3y2OUwMjQy" class="nav-link btn btn-outline-dark rounded-pill m-0" target="_blank">Связаться с нами</a></li>
+                            </ul>
+    
+                            <div class="hamburger">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <style>
+     
+      /* корзина */
+      .cart {
+        margin-top: 30px;
+      }
+      
+      .cart table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      
+      .cart th, .cart td {
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: center;
+      }
+      
+      .cart .total {
+        text-align: right;
+        margin-top: 10px;
+      }
+      
+      .cart .remove-item {
+        background-color: #dc3545;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+      
+      .cart .remove-item:hover {
+        background-color: #c82333;
+      }
+      </style>
+    <!-- товары -->
+    <section id="popular-books" class="bookshelf py-5 my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+  
+            <div class="section-header align-center">
+              <div class="title">
+                <span>некоторые товары</span>
+              </div>
+              <h2 class="section-title">Популярные книги</h2>
+            </div>
+  
+            <ul class="tabs">
+              <li data-tab-target="#all-genre" class="active tab">Все жанры</li>
+            </ul>
+  
+    <div class="tab-content">
+      <div id="all-genre" data-tab-content class="active">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="product-item">
+              <figure class="product-style">
+                <img src="мдк.png" alt="Books" class="product-item">
+              </figure>
+              <figcaption>
+                <h3>Магистр дьявольского культа</h3>
+                <p>Мосян Тунсю</p>
+                <span class="price" >1998 руб.</span>
+    <button class="add-to-cart" onclick="alert('Товар успешно добавлен')">Добавить в корзину</button>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="product-item">
+              <figure class="product-style">
+                <img src="чтение.png" alt="Books" class="product-item">
+              </figure>
+              <figcaption>
+                <h3>Безмолвное чтение. Том 1. Жюльен</h3>
+                <p>Прист</p>
+                <span class="price">1140 руб.</span>
+                <button class="add-to-cart" onclick="alert('Товар успешно добавлен')">Добавить в корзину</button>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="product-item">
+              <figure class="product-style">
+                <img src="гп.png" alt="Books" class="product-item">
+              </figure>
+              <figcaption>
+                <h3>Поваренная книга Гарри Поттера</h3>
+                <p>Дина Бухольц</p>
+                <span class="price">1479 руб.</span>
+                <button class="add-to-cart" onclick="alert('Товар успешно добавлен')">Добавить в корзину</button>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="product-item">
+              <figure class="product-style">
+                <img src="бегущий.png" alt="Books" class="product-item">
+              </figure>
+              <figcaption>
+                <h3>Бегущий в лабиринте. Лекарство от смерти</h3>
+                <p>Джеймс Дэшнер</p>
+                <span class="price">1519 руб.</span>
+    <button class="add-to-cart" onclick="alert('Товар успешно добавлен')">Добавить в корзину</button>
+              </figcaption>
+            </div>
+          </div>
+
+        </div>
+        <div class="row">
+
+          <div class="col-md-3">
+            <div class="product-item">
+              <figure class="product-style">
+                <img src="ок.png" alt="Books" class="product-item">
+              </figure>
+              <figcaption>
+                <h3>Осознанная кулинария</h3>
+                <p>Дарья Третьякова, Дарья Савельева </p>
+                <span class="price">1559 руб.</span>
+    <button class="add-to-cart" onclick="alert('Товар успешно добавлен')">Добавить в корзину</button>
+              </figcaption>
+            </div>
+          </div>
+
+         
+
+          <div class="col-md-3">
+            <div class="product-item">
+              <figure class="product-style">
+                <img src="гибли.png" alt="Books" class="product-item">
+              </figure>
+              <figcaption>
+                <h3>Кулинарная книга Ghibli</h3>
+                <p>Тибо Вилланова </p>
+                <span class="price">1759 руб.</span>
+                <button class="add-to-cart" onclick="alert('Товар успешно добавлен')">Добавить в корзину</button>
+              </figcaption>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+
+</div>
+<!-- корзина -->
+<div class="cart">
+  <h2>Корзина</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Товар</th>
+        <th>Количество</th>
+        <th>Цена</th>
+        <th>Итого</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- товары, которые добавили в корзину -->
+    </tbody>
+  </table>
+  <div class="total">
+    <strong>Общая стоимость: <span id="total-price">0 руб.</span></strong>
+  </div>
+</div>
+<script>
+  //массив для корзины
+  let cartItems = [];
+  
+  //отображение корзины
+  function updateCart() {
+    const cartTableBody = document.querySelector('.cart tbody');
+    cartTableBody.innerHTML = '';
+  
+    let totalPrice = 0;
+  
+    cartItems.forEach((item, index) => {
+      const itemTotal = item.price * item.quantity;
+      totalPrice += itemTotal;
+  
+      const row = document.createElement('tr');
+  
+      row.innerHTML = `
+        <td>${item.name}</td>
+        <td>
+          <input type="number" value="${item.quantity}" min="1" data-index="${index}" class="item-quantity" />
+        </td>
+        <td>${item.price} руб.</td>
+        <td>${itemTotal} руб.</td>
+        <td><button class="remove-item" data-index="${index}">Удалить</button></td>
+      `;
+  
+      cartTableBody.appendChild(row);
+    });
+  
+    document.getElementById('total-price').textContent = totalPrice + ' руб.';
+  }
+  
+  //добавили в корзину
+  const addToCartButtons = document.querySelectorAll('.add-to-cart');
+  
+  addToCartButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const product = button.parentElement;
+      const name = product.querySelector('h3').textContent;
+      const price = parseFloat(product.querySelector('.price').textContent);
+  
+      const existingItem = cartItems.find((item) => item.name === name);
+  
+      if (existingItem) {
+        existingItem.quantity += 1;
+      } else {
+        cartItems.push({ name, price, quantity: 1 });
+      }
+  
+      updateCart();
+    });
+  });
+  </script>
+  <script>
+    //изменение количества товара
+    document.body.addEventListener('change', function(event) {
+      if (event.target.classList.contains('item-quantity')) {
+        const index = event.target.getAttribute('data-index');
+        const newQuantity = parseInt(event.target.value);
+    
+        if (newQuantity > 0) {
+          cartItems[index].quantity = newQuantity;
+          updateCart();
+        }
+      }
+    });
+    </script>
+    <script>
+      //удаление товара с выводом сообщения
+      document.body.addEventListener('click', function(event) {
+        if (event.target.classList.contains('remove-item')) {
+          const index = event.target.getAttribute('data-index');
+          cartItems.splice(index, 1);
+          updateCart();
+          alert('Товар удалится из корзины после закрытия уведомления');
+        }
+      });
+      </script>
